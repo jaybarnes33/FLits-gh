@@ -63,13 +63,13 @@ body {
   text-align: center;
 }
 .slide1 {
-  background-image: url("images/camera.jpg");
+  background-image: url("images/backgroundsample.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .slide2 {
-  background-image: url("images/camera1.jpg");
+  background-image: url("images/camera.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
