@@ -1,0 +1,84 @@
+body{
+  background-image: url("images/champagne.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+
+}
+
+.navbar {
+  padding:0 0 4.5rem;
+
+
+}
+.logo{
+  width: 200px;
+  height: 60px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+  color: blue;
+}
+.text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+}
+#slidehows {
+  text-align: center;
+}
+body {
+
+  text-align: center;
+}
+.image {
+width: 100%;
+height: auto;
+margin: 20px 20px 20px 20px;
+}
+
+/* Media query */
+/* For tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  .image {
+  width: 100%;
+  height: auto;
+  margin: 20px 20px 20px 20px;
+  }
+  .text{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 200px 0px 200px 0px;
+  }
+
+}
+  /* ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .text{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 200px 0px 200px 0px;
+  }
+  .image {
+  width: 100%;
+  height: auto;
+  margin: 15px 20px 15px 20px;
+  }
+
+}
